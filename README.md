@@ -1,81 +1,44 @@
-# Projects app
+# 🌍 Jogo das Bandeiras – Python + Flet
 
-## Run the app
+Este projeto é um **jogo educativo de bandeiras**, desenvolvido em Python utilizando a biblioteca **Flet**.  
+O objetivo é identificar corretamente o país correspondente à bandeira exibida.
 
-### uv
+O jogo possui **10 níveis**, sem repetição de países, e fornece feedback imediato para respostas corretas ou incorretas.
 
-Run as a desktop app:
+---
 
-```
-uv run flet run
-```
+## 🎮 Funcionalidades
 
-Run as a web app:
+- 10 níveis progressivos
+- Bandeiras exibidas de forma aleatória (sem repetição)
+- Campo de resposta com validação automática
+- Feedback visual para acertos e erros
+- Interface gráfica simples e responsiva
+- Janela centralizada no desktop
 
-```
-uv run flet run --web
-```
+---
 
-### Poetry
+## 🛠 Tecnologias Utilizadas
 
-Install dependencies from `pyproject.toml`:
+- Python 3
+- Flet
+- random (biblioteca padrão)
 
-```
-poetry install
-```
+---
 
-Run as a desktop app:
+## ▶️ Como executar o projeto
 
-```
-poetry run flet run
-```
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/jogo-das-bandeiras.git
 
-Run as a web app:
 
-```
-poetry run flet run --web
-```
+2. Instale o Flet
+   ```bash
+   pip install flet
 
-For more details on running the app, refer to the [Getting Started Guide](https://flet.dev/docs/getting-started/).
+3. Execute o Jogo
+  ```bash
+   python main.py
 
-## Build the app
 
-### Android
-
-```
-flet build apk -v
-```
-
-For more details on building and signing `.apk` or `.aab`, refer to the [Android Packaging Guide](https://flet.dev/docs/publish/android/).
-
-### iOS
-
-```
-flet build ipa -v
-```
-
-For more details on building and signing `.ipa`, refer to the [iOS Packaging Guide](https://flet.dev/docs/publish/ios/).
-
-### macOS
-
-```
-flet build macos -v
-```
-
-For more details on building macOS package, refer to the [macOS Packaging Guide](https://flet.dev/docs/publish/macos/).
-
-### Linux
-
-```
-flet build linux -v
-```
-
-For more details on building Linux package, refer to the [Linux Packaging Guide](https://flet.dev/docs/publish/linux/).
-
-### Windows
-
-```
-flet build windows -v
-```
-
-For more details on building Windows package, refer to the [Windows Packaging Guide](https://flet.dev/docs/publish/windows/).
